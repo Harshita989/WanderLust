@@ -1,0 +1,33 @@
+<% layout("/layouts/boilerpplate.ejs") %>
+
+    <div class="row">
+        <div class="col-6 offset-3 mt-3">
+            <h1 class=" offset-3 mt-3">Signup for Wanderlust</h1>
+            <form action="/signup" method="post" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text " name="username" placeholder="Enter the username" class="form-control" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email " name="email" placeholder="Enter the Email" class="form-control" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password " name="password" placeholder="Enter your password" class="form-control"
+                        required>
+                    <div class="valid-feedback">
+                        Looks Strong
+                    </div>
+                </div>
+                <button class="btn btn-success">Signup</button>
+
+            </form>
+        </div>
+    </div>

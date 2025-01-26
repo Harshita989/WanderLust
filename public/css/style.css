@@ -1,0 +1,378 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+
+/* .navbar {
+    height: 5rem;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+/* }
+
+/* Brand and Icon */
+/* .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(183, 14, 48);
+    /* Primary color for brand */
+/* } */ 
+
+/* .fa-compass {
+    color: rgb(183, 14, 48);
+    font-size: 1.8rem;
+} */
+/* 
+.brand-name {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: rgb(183, 14, 48);
+    /* Brand text color */
+/* }  */
+
+/* Navbar Links */
+/* .nav-link {
+    color: black !important;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+} */
+
+/* .nav-link:hover {
+    color: rgb(183, 14, 48) !important;
+    /* Primary hover color */
+    /* transform: scale(1.1); */
+    /* Subtle scaling effect */
+/* } */ 
+
+/* Adjustments for Mobile */
+/* @media (max-width: 992px) { */
+    /* .navbar-nav { */
+        /* margin-top: 1rem; */
+    /* } */
+/* } */ 
+/* General Navbar Styling */
+.custom-navbar {
+    height: 5rem;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Brand and Icon */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(183, 14, 48);
+}
+
+.fa-compass {
+    color: rgb(183, 14, 48);
+    font-size: 1.8rem;
+}
+
+.brand-name {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: rgb(183, 14, 48);
+}
+
+/* Navbar Links */
+.nav-link {
+    color: black !important;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgb(183, 14, 48) !important;
+    transform: scale(1.1);
+}
+
+/* Background color change and adjustments for small screens */
+@media (max-width: 992px) {
+    .custom-navbar {
+        background-color: rgb(240, 240, 240); /* New background color for smaller screens */
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-nav {
+        margin-top: 1rem;
+    }
+
+    /* Center navbar items on small screens */
+    .navbar-nav .nav-link {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* footer
+.f-info-links a{
+    text-decoration: none;
+    color:black;
+    margin-right: 1.2rem;
+}
+.f-info-socials,.f-info-brand{
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+    margin-right: 1.2rem;
+}
+.f-info-links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 8rem;
+    background-color:rgb(189, 189, 189);
+
+} */
+/* Footer Container */
+/* Footer Container */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #828282;
+    /* Dark background color */
+    color: #110505;
+    /* Light text color for contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Social Icons */
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.footer-socials a {
+    margin: 0 1rem;
+    color: #f1f1f1;
+    /* Light color for icons */
+    font-size: 1.8rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-socials a:hover {
+    color: #ff6347;
+    /* Softer color on hover */
+    transform: scale(1.1);
+    /* Slightly enlarge icons on hover */
+}
+
+/* Brand Text */
+.footer-brand {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+/* Footer Structure */
+.footer-container {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-links-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* Divider */
+.footer-divider {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 1.5rem 0;
+}
+
+/* Bottom Footer Section */
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.footer-bottom a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Social Icons */
+.footer-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-socials a {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.footer-socials a:hover {
+    color: #555;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-links-section {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
+/* Links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 1rem;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ff6347;
+    /* Softer color for hover */
+    text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+}
+
+
+/* card */
+.card {
+    border: none !important;
+    margin-bottom: 1.2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+    /* white-space: nowrap; */
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+/* overlay */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* add listing */
+.add-btn {
+    background-color: rgb(241, 51, 89) !important;
+}
+
+/* edit listing  */
+.edit-btn {
+    background-color: rgb(241, 51, 89) !important;
+    border: none !important;
+}
+
+/* show listing */
+.show_img {
+    height: 30vh !important;
+}
+
+.dlt-btn {
+    background-color: rgb(241, 51, 89) !important;
+    border: none !important;
+}
+
+/* review
+ */
+.review-card {
+    /* border: none !important; */
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+    width: auto;
+}
